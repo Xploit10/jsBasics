@@ -23,3 +23,9 @@ console.log(eligibileForLoan)
 // Logical NOT (!)
 let applicationRefused = !eligibileForLoan;
 console.log('Application Refused: ' + applicationRefused);
+
+// Falsy 
+let userColor = undefined;
+let defaultColor = 'blue';
+let currentColor = userColor || defaultColor;
+console.log(currentColor);
